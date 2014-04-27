@@ -1,0 +1,33 @@
+{
+    "name": "g4/buffer",
+    "description": "g4 buffer package",
+    "keywords": [
+        "buffer",
+        "redis",
+        "storage"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dejan Samardzija",
+            "email": "samardzija.dejan@gmail.com"
+        },
+        {
+            "name": "Drasko Gomboc",
+            "email": "drasko.gomboc@gmail.com"
+        },
+        {
+            "name": "Ivan Krickovic",
+            "email": "ivan.krickovic@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"G4\\Buffer\\": "src/"}
+    },
+    "require-dev": {
+
+    },
+    "require": {
+        "predis/predis": "*"
+    }
+}
